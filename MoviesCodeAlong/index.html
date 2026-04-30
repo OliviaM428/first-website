@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Movies!!</h1>
+
+    <label for="genre-select">Choose a Movie Genre:</label>
+    <select id="genre-select">
+        <option value="genre">--Please choose an option--</option>
+        <option value="animation">Animation</option>
+        <option value="western">Western</option>
+        <option value="classic">Classic</option>
+    </select>
+    
+        <div id="container"></div>
+        <style>
+            body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #container{
+                display: flex;
+            }
+            .movie-box {
+                border: 1px solid #ccc;
+                max-width: min-content;
+                padding: 1em;
+                margin: 1em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+            }
+        </style>
+
+        <script src="main.js" defer></script>
+</body>
+
+</html>
